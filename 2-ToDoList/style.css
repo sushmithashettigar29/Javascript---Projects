@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  width: 100%;
+  height: 174px;
+  background-color: #a7e6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: #050c9c;
+}
+header p {
+  font-weight: bold;
+  color: #3572ef;
+}
+.input-field {
+  display: flex;
+  gap: 0px;
+  margin-top: 20px;
+}
+.input-field input {
+  width: 300px;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #050c9c;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+#save-btn {
+  width: 80px;
+  font-size: 20px;
+  background: #050c9c;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+main {
+  width: 100%;
+  min-height: 555px;
+  background-color: #050c9c;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.box {
+  width: 600px;
+  height: 50px;
+  background-color: #a7e6ff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.status-btns {
+  display: flex;
+  gap: 10px;
+}
+.status-btns button {
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.edit-btn {
+  background-color: #050c9c;
+}
+.delete-btn {
+  background-color: rgb(250, 85, 85);
+}
+.completed-btn {
+  background-color: rgb(40, 209, 40);
+}
+.textDecor {
+  text-decoration: line-through;
+  color: rgb(132, 135, 132);
+}
